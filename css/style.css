@@ -1,3 +1,20 @@
+*{
+  font-family: 'PT Sans', sans-serif; 
+}
+
+
+nav{
+   background-color:#2D0D06;
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+nav li a{
+  color: #ffffff;
+  font-weight: bold;
+}
 .navbar-wrapper {
     position: absolute;
     top: 20px;
@@ -14,6 +31,9 @@
         position: relative;
         top: 0px;
     }
+}
+.navbar-brand{
+  text-align: left;
 }
 .navbar-brand:hover{
     color:#ffffff;
@@ -38,12 +58,24 @@
 }
 
 #slider1_container{
-    visibility: hidden; 
-    position: relative; 
+    visibility: hidden;
+    position: relative;
     margin: 0 auto;
-    top: 0px; 
-    left: 0px; 
-    width: 1300px; 
-    height: 500px; 
+    top: 0px;
+    left: 0px;
+    width: 1300px;
+    height: 500px;
     overflow: hidden;
+}
+
+#space_div{
+  min-height: 50px;
+}
+
+.pub1{
+  background-color:rgba(0,0,2,0.1);
+}
+
+.pub2{
+  background-color:rgba(0,0,4,0.2);
 }
